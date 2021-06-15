@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dotted-hr{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+/* header starts from here */
+
+header{
+    background-image: url('https://images.pexels.com/photos/1268877/pexels-photo-1268877.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 1% 8%;
+    background-color: rgb(0,0,0,0.1);
+}
+
+.navbar-icon{
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    background-color: rgb(201, 202, 189);
+    border-radius: 6px;
+    color: rgb(95, 92, 92);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+h2{
+    font-size: 3.0rem;
+    font-family: 'Satisfy', cursive;
+    background-color: rgb(245, 252, 252);
+    padding: 10px 18px;
+    border-radius: 6px;
+
+
+}
+
+.btn{
+    margin-top: 30px;
+    background-color: rgb(245, 252, 252);
+}
+.banner-content{
+    
+}
+/* header ends from here */
+
+/* features starts from here */
+.features{
+    background-color: #fab1a0;
+    padding: 4% 8%;
+}
+.features-content{
+    padding: 12px 10px;
+    border: 1px solid #ff067e;
+    border-radius: 5px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.features-content:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 4px black;
+}
+
+
+.font-icon{
+    color: #ff067e;
+    padding: 5px;
+}
+/* features ends from here */
+
+
+/* about me section starts from here */
+#about-me{
+    background-color: #fab1a0;
+    padding: 4% 8%;
+}
+
+.star i{
+width: 20px;
+
+}
+/* about me section ends from here */
+
+/* feedback section starts from here */
+.feedback{
+    background-color:#1abc9c;
+    padding: 4% 8%;
+}
+
+.fd-img{
+    width: 700px;
+    height: 370px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    
+}
+
+/* feedback section ends from here */
+
+/* contact section starts from here */
+.contact{
+    background-color: #3498db;
+    padding: 2% 8%;
+}
+
+.valid-feedback{
+    color: white;
+}
+/* contact section ends from here */
+
+/* footer starts from here  */
+footer{
+    background-color: rgb(65, 63, 63);
+    padding: 1% 8%;
+}
+
+footer a{
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+footer a:hover{
+    background-color: rgb(255, 249, 249);
+    text-decoration: none;
+}
+/* footer ends from here  */
+
